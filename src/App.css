@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+}
+.profile-flex {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.iconshare {
+  height: 40px;
+  width: 40px;
+  right: 250px;
+  top: 0px;
+  border-radius: 20px;
+  position: absolute;
+}
+/* #profile__img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+} */
+
+.icon {
+  /* visibility: hidden; */
+  /* position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 12.5%; */
+  position: absolute;
+  top: 76px;
+  right: 665px;
+  height: 19px;
+  width: 20px;
+  justify-self: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  margin-bottom: 50px;
+}
+#profile__img:hover {
+  z-index: -1;
+  opacity: 0.5;
+}
+#profile__img {
+  height: 88px;
+  width: 88px;
+  left: 37px;
+  top: 16px;
+  border-radius: 275px;
+  z-index: 1;
+}
+.profile-flex {
+  display: flex;
+}
+
+.link {
+  background-color: #eaecf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  width: 1152px;
+  height: 76px;
+  margin: 10px 0;
+}
+a {
+  text-decoration: none;
+}
+.link:hover {
+  background-color: #d0d5dd;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.slack {
+  margin: 10px;
+}
+.github {
+  margin: 10px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 0px;
+  gap: 84px;
+}
+hr {
+  fill: gray;
+  border-radius: 5px;
+  height: 2px;
+  width: 100%;
+  margin: 10px 0;
+}
